@@ -7,12 +7,41 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-	<div class="wrapper">
-
+	<div class="wrapper" id="home">
+		<div class="overlay"
+<!-- HEADER -->
+			<div class="header">
+			</div>
+			<div class="site-title">
+				<h1>Digital Mosquito Inspector</h1>
+				<h2>Help eradicate the Zika Virus</h2>
+				<ol>
+					<li>1. Provide your location</li>
+					<li>2. Follow our checklist to inspect your surroundings</li>
+					<li>3. Arm ourself with information</li>
+				</ol>
+			</div>
+<!-- CONTENT-HOME -->
+			<div id="form-home">
+				<form>
+  					<p class="form">Street Address<p>
+  					<input type="text" name="street-address">
+  					<p class="form">City</p>
+  					<input type="text" name="city">
+  					<p class="form">Zip</p>
+  					<input type="number" name="zip">
+				</form>
+			</div>
+			<div class="btn-container">
+				<div class="btn" id="home-submit">
+					<p class="submit">Submit</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Latest compiled and minified JQuery -->
@@ -20,6 +49,5 @@
 	</script>
 	<!-- JavaScript -->
 	<script src="../scripts/app.js"></script>
-
 </body>
 </html>
