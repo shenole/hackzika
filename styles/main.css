@@ -267,6 +267,12 @@ input[type=number] {
 	background-color: #ff5757;
 }
 
+/* ========== CHECKLIST PAGE ========== */
+
+#checklist {
+	background: #003366;
+}
+
 /* ========== MEDIA QUERIES ========== */
 
 /* ----- Portrait View ----- */
