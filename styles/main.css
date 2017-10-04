@@ -269,8 +269,20 @@ input[type=number] {
 
 /* ========== CHECKLIST PAGE ========== */
 
-#checklist {
-	background: #003366;
+#checklist.wrapper {
+	background: #000033;
+}
+
+.checklist {
+	background: #000033;
+}
+
+li .list-group-item {
+	background: #000033;
+}
+
+li .list-group-item:hover {
+	background: #0033cc;
 }
 
 /* ========== MEDIA QUERIES ========== */
