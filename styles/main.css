@@ -269,20 +269,29 @@ input[type=number] {
 
 /* ========== CHECKLIST PAGE ========== */
 
-#checklist.wrapper {
-	background: #000033;
+.wrapper#checklist-wrapper {
+	background-color: #000033;
 }
 
-.checklist {
-	background: #000033;
+.check-list-container {
+	width: 900px;
+	margin: auto;
+	background-color: #0033cc;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	color: #ffffff;
+	padding: .45rem;
 }
 
-li .list-group-item {
-	background: #000033;
+form#checklist {
+	width: 100%;
 }
 
-li .list-group-item:hover {
-	background: #0033cc;
+input[type=checkbox] {
+	width: 30px;
+	height: 30px;
 }
 
 /* ========== MEDIA QUERIES ========== */
