@@ -266,3 +266,76 @@ input[type=number] {
 	cursor: pointer;
 	background-color: #ff5757;
 }
+
+/* ========== CHECKLIST PAGE ========== */
+
+#checklist {
+	background: #003366;
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+/* ----- Portrait View ----- */
+
+@media only screen 
+  and (max-device-width: 450px) 
+  and (orientation: portrait) { 
+
+	/*.header {
+		position: fixed;
+		z-index: 30;
+	}*/
+
+	#home {
+		background: url('../images/mosquito-portrait-phone01.jpg')no-repeat center fixed;
+		background-size: cover;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 1.5;
+	}
+
+	ol li {
+		font-family: 'Open Sans', sans-serif;
+		font-size: .9rem;
+		color: #ffffff;
+		padding: .25rem .25rem .25rem 2rem;
+	}
+
+	#form-home  {
+		width: 360px;
+		height: 260px;
+		animation: none;
+	}
+
+	form {
+		width: 340px;
+		margin: auto;
+		padding: 6px 12px;
+	}
+
+	p.form {
+		font-size: 1rem;
+		font-family: 'Open Sans', sans-serif;
+		color: #ffffff;
+		margin: 3px;
+	}
+
+	input[type=text] {
+    	width: 100%;
+    	padding: 6px 10px;
+    	margin: 5px 0;
+		font-size: .85rem;
+	}
+
+	input[type=number] {
+    	width: 100%;
+    	padding: 6px 10px;
+    	margin: 5px 0;
+		font-size: .85rem;
+	}
+}
