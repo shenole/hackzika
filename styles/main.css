@@ -368,4 +368,20 @@ input[type=checkbox] {
     	margin: 5px 0;
 		font-size: .85rem;
 	}
+
+	.check-list-container {
+		width: 400px;
+		font-size: 1.5rem;
+		line-height: 2rem;
+		padding: .45rem;
+	}
+
+	form#checklist {
+		width: 100%;
+	}
+
+	input[type=checkbox] {
+		width: 30px;
+		height: 30px;
+	}
 }
