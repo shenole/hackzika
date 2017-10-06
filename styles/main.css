@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 html {
 	width: 100%;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -108,8 +109,8 @@ p.submit {
 	position: absolute;
 	top: 75px;
 	right: -280px;
-	z-index: 10;
 	width: 280px;
+	z-index: 10;
 	background: #ffffff;
 	-webkit-transition: right .5s ease-in-out;
 	-moz-transition: right .5s ease-in-out;
@@ -118,7 +119,7 @@ p.submit {
 }
 
 .nav-div.open {
-	right: 0;
+	right: 0px;
 	-webkit-transition: right .5s ease-in-out;
 	-moz-transition: right .5s ease-in-out;
 	-o-transition: right .5s ease-in-out;
@@ -165,7 +166,6 @@ img#burger-nav {
 	top: 20px;
 	right: 30px;
 	max-width: 35px;
-	z-index: 11;
 }
 
 img#burger-nav:hover {
@@ -269,8 +269,29 @@ input[type=number] {
 
 /* ========== CHECKLIST PAGE ========== */
 
-#checklist {
-	background: #003366;
+.wrapper#checklist-wrapper {
+	background-color: #000033;
+}
+
+.check-list-container {
+	width: 900px;
+	margin: auto;
+	background-color: #0033cc;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	color: #ffffff;
+	padding: .45rem;
+}
+
+form#checklist {
+	width: 100%;
+}
+
+input[type=checkbox] {
+	width: 30px;
+	height: 30px;
 }
 
 /* ========== MEDIA QUERIES ========== */
@@ -286,9 +307,18 @@ input[type=number] {
 		z-index: 30;
 	}*/
 
+	.wrapper {
+    	height: 100% !important;
+	}
+
 	#home {
 		background: url('../images/mosquito-portrait-phone01.jpg')no-repeat center fixed;
 		background-size: cover;
+	}
+
+	.nav-div {
+		right: -180px;
+		width: 180px;
 	}
 
 	h1 {
@@ -337,5 +367,21 @@ input[type=number] {
     	padding: 6px 10px;
     	margin: 5px 0;
 		font-size: .85rem;
+	}
+
+	.check-list-container {
+		width: 400px;
+		font-size: 1.5rem;
+		line-height: 2rem;
+		padding: .45rem;
+	}
+
+	form#checklist {
+		width: 100%;
+	}
+
+	input[type=checkbox] {
+		width: 30px;
+		height: 30px;
 	}
 }
