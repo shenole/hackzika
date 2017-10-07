@@ -6,27 +6,33 @@
 	<title>Digital Mosquito Inspector | Checklist</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/check-list.css">
 </head>
 
 <body>
 	<div class="wrapper" id="checklist-wrapper">
 			<div class="nav-div">
 				<ul class="navigation">
-					<li class="list-group-item"><a href="#">Home</a></li>
-					<li class="list-group-item"><a href="#">Checklist</a></li>
-					<li class="list-group-item"><a href="#">More Info</a></li>
+					<li class="list-group-item nav-li"><a href="index.html">Home</a></li>
+					<li class="list-group-item nav-li"><a href="check-list.html">Checklist</a></li>
+					<li class="list-group-item nav-li"><a href="#">More Info</a></li>
 				</ul>
 			</div>
 <!-- HEADER -->
 			<div class="header">
-				<img src="images/logo-ph.png" class="logo-ph">
+				<a href="https://www.codeforamerica.org/" target="blank"><img src="images/logo-colored.png" class="logo-ph"></a>
 				<img src="images/burger-nav.png" id="burger-nav">
+				<div class="sticky-header">
+				</div>
 			</div>
 			<div class="site-title">
 
 			</div>
 <!-- CONTENT-HOME -->
+			<div class="text-box">
+				<h2>DMI Checklist</h2>
+				<p>Have you checked the following mosquito breeding grounds tha may be on your property?</p>
+			</div>
 			<div class="check-list-container">
 				<form id="checklist">
 					<input type="checkbox" name="check-one" value="one"> Drain water from garbage cans, gutters, pool covers, coolers, toys, flower pots, or any other containers where water has collected.<br>
@@ -48,11 +54,6 @@
   					<br>
   					<!--<input type="submit" value="Submit">-->
 				</form>
-			</div>
-			<div class="btn-container">
-				<div class="btn" id="home-submit">
-					<p class="submit">Submit</p>
-				</div>
 			</div>
 	</div>
 
